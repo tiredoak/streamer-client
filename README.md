@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center">
 
-## Available Scripts
+<h3 align="center">CRUD Streaming App with React and Redux</h3>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
+<img src="assets/streamer.gif" alt="drawing" width="500"/>
+</div>
 
-### `npm test`
+## About the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CRUD Streaming App with React and Redux. The app allows a user to view a list of available streams or to create, edit, or delete his own streams.
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/) (React router, Portals);
+- [Redux](https://redux.js.org/) for managing state;
+- [Google Auth](https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow) for client-side authentication;
+- [SemanticUI](https://semantic-ui.com/) for styling;
+- [JSON API](https://jsonapi.org/) for spinning up a simple API;
+- [OBS Studio](https://obsproject.com/) to connect to a stream.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Create a new repo (assuming it's called streamer) and `cd` into it
+   ```sh
+   mkdir streamer && cd streamer
+   ```
+2. Clone the client, api, and server repos there
+   ```sh
+   git clone https://github.com/tiredoak/streamer-client.git
+   git clone https://github.com/tiredoak/streamer-server.git
+   git clone https://github.com/tiredoak/streamer-api.git
+   ```
+3. For each of the repos, install the npm packages
+   ```sh
+   npm install
+   ```
+4. For each of the repos, run
+   ```sh
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Miguel Carvalho - miguelc@tuta.io
 
-## Learn More
+Project Link: [https://github.com/tiredoak/github-dashboard](https://github.com/tiredoak/github-dashboard)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ACKNOWLEDGMENTS -->
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- This was made as part of the [Modern React with Redux](https://www.udemy.com/course/react-redux/) course on Udemy
+- [README template](https://github.com/othneildrew/Best-README-Template)
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[contributors-shield]: https://img.shields.io/github/contributors/tiredoak/github-dashboard.svg?style=for-the-badge
+[contributors-url]: https://github.com/tiredoak/github-dashboard/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tiredoak/github-dashboard.svg?style=for-the-badge
+[forks-url]: https://github.com/tiredoak/github-dashboard/network/members
+[stars-shield]: https://img.shields.io/github/stars/tiredoak/github-dashboard.svg?style=for-the-badge
+[stars-url]: https://github.com/tiredoak/github-dashboard/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tiredoak/github-dashboard.svg?style=for-the-badge
+[issues-url]: https://github.com/tiredoak/github-dashboard/issues
+[license-shield]: https://img.shields.io/github/license/tiredoak/github-dashboard.svg?style=for-the-badge
+[license-url]: https://github.com/tiredoak/github-dashboard/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[product-screenshot]: images/screenshot.png
